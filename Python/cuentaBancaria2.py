@@ -6,20 +6,7 @@
 #en el otro archivo importar el archivo cuentaBancaria2 y la clase CuentaBancaria
 #crear un objeto y probar el funcionamiento de las funciones.
 
-class CuentaBancaria:
-    def __init__(self,saldo_inicial,nombre,apellido,moneda="$"):
-        self.movimientos = []
-        self.saldo = saldo_inicial
-        self.nombre = nombre
-        self.apellido = apellido
-        self.moneda = moneda
+
         
-    def depositar(self,monto):
-        self.movimientos.append("deposito:" , str(monto))
-        self.saldo = self.saldo + monto
-        
-    def extraer(self,monto):
-        if monto >= 0:
-            
         
         
